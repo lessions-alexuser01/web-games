@@ -1,0 +1,134 @@
+html, body{
+  -webkit-perspective: 1200px; 
+  -webkit-transform-style: preserve-3d;
+  height:75%;
+  margin: 0;
+  padding: 0;
+
+}
+
+.dir{
+  -webkit-transform-style: preserve-3d; 
+}
+
+.floorTile{
+  position:absolute;
+  height:805px;
+  width:805px;
+}
+
+.wallTile{
+  position:absolute;
+  height:805px;
+  width:805px;
+}
+
+.player{
+  position:absolute;
+  height:600px;
+  width:300px;
+}
+
+#container {
+   min-height:100%;
+   position:absolute;
+   top:-20px;
+}
+
+#gun{
+  -webkit-perspective: 300px;
+  position:absolute;
+}
+
+.shot{
+  height:100px;
+  width: 150px;
+  background-color:white;
+  box-shadow: 0 0 50px #fefcc9, 
+              10px -10px 30px #feec85, 
+              -20px -20px 40px #ffae34, 
+              20px -40px 50px #ec760c, 
+              -20px -60px 60px #cd4606, 
+              0 -80px 70px #973716, 
+              10px -20px 80px #451b0e;
+  position:absolute;
+}
+
+.gottem{
+  background:none;
+  text-align: center;
+  font-family: Arial;
+  font-size: 140px; text-transform: uppercase;
+  color: #fff;
+  text-shadow: 0 0 20px #fefcc9, 10px -10px 30px #feec85, -20px -20px 40px #ffae34, 20px -40px 50px #ec760c, -20px -60px 60px #cd4606, 0 -80px 70px #973716, 10px -90px 80px #451b0e;
+  width: 60%;
+  left: 20%;
+  top: 100px;
+  position:absolute;
+  opacity: 0;
+}
+
+div{
+  font-size: 100px;
+  background: gray;
+}
+
+
+@font-face {
+  font-family: "doom";
+  src: url(DooM.ttf) format("truetype");
+}
+
+.ui{
+  position:absolute;
+  font-size: 40px;
+  bottom:-78%;
+  width:100%;
+  height:100px;   
+  color:red;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 2.00px; 
+  font-family: 'doom';
+  /*color: transparent;*/
+  text-shadow: 0 0 25px rgba(0,0,0,0.8);
+}
+
+.portrait{
+  height:80px;
+  width: 10%;
+  left: 45%;
+}
+
+.health{
+  height:80px;
+  width: 10%;
+  left: 20%;
+}
+
+.ammo{
+  height:80px;
+  width: 10%;
+  left: 5%;
+}
+
+.armor{
+  height:80px;
+  width: 10%;
+  left: 60%;
+}
+
+.frags{
+  height:80px;
+  width: 10%;
+  left: 38%;
+}
+
+.gun{
+  position:absolute;
+  font-size: 40px;
+  /*bottom:-54%;*/
+  right: 35.5%;
+  width:30%;
+  height:180px;
+}
+

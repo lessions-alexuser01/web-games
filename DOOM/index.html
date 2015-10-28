@@ -1,0 +1,30 @@
+<!doctype html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/style.css"></link>
+    <script type='text/javascript' src='https://cdn.firebase.com/v0/firebase.js'></script>
+    <script src="matrixUtil/src/matrixUtil.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/gun.js"></script>
+    <script src="js/camera.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/controls.js"></script>
+  </head>
+  <body>
+    <div id="x" class="dir">
+      <div id='container'></div>
+    </div>
+    <div class="gottem">GOTTEM</div>
+    <img class="gun" src="assets/BFGGB0.PNG"></img>
+    <img src="assets/STBAR.PNG" class="ui">
+      <span class="ammo ui">40</span>
+      <span class="health ui">100%</span>
+      <span class="frags ui">0</span>
+      <img src="assets/doom_icon_final3.gif" class="portrait ui"></img>
+      <span class="armor ui">100%</span>
+    </img>
+  </body>
+  <script>
+    var game = new Game();
+  </script>
+</html>
